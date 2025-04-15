@@ -1,0 +1,62 @@
+# Файлы окружения
+.env
+.env.local
+.env.*.local
+
+# Бинарные файлы
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Директории
+/bin
+/tmp
+/vendor
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Логи
+*.log
+
+# Кэш
+.cache/
+/go-build/
+
+# Тестовые файлы
+coverage.txt
+profile.cov
+*.cover
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS
+Thumbs.db 
